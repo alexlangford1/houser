@@ -1,5 +1,13 @@
+
+html {
+  background: #AFD4C0;
+}
+
 .App {
   text-align: center;
+  background: #AFD4C0;
+  margin: 0;
+
 }
 
 .App-logo {
@@ -8,26 +16,105 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: #3B5249;
+  min-height: 8vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.dashboard {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: whitesmoke;
+  width: 50vw;
+  padding: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center_dash {
+  display: flex;
+  justify-content: center;
 }
+
+.add_new {
+  background: #AFD4C0;
+  text-decoration: none;
+  color: black;
+  padding: 9px;
+}
+
+.dashheader {
+  width: 44vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+
+}
+
+.add-new-header {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  
+}
+
+.wizz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  width: 50vw;
+  padding: 15px;
+  height: 100%;
+}
+
+.plz-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cancel {
+  text-decoration: none;
+  color: black;
+  background: #FEC2c2;
+  padding: 8px;
+
+}
+
+.one-house {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+
+.house {
+  background: #FEC2c2;
+  width: 40vw;
+  padding: 20px;
+  margin: 20px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* .button {
+  position: relative;
+  top: -170px;
+  left: 20vw;
+} */
